@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>phcard.uz</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="content">
+                <ul>
+                    <li class="calendar"><i class="fa fa-calendar"></i><em></em></li>
+                    <li class="week"></li>
+                    <li class="langs">O`z <b class="fa fa-angle-down"></b>
+                        <nav class="lang">
+                            <p>Ўзб</p>
+                            <p>Рус</p>
+                        </nav></li>
+                    
+                </ul>
+                <nav class="logotip-nav"><img class="logotip" src="./logo.png" alt=""></nav>
+                <ul class="profile">
+                    <li class="loginbtn"><a href="#"><p>Kirish</p></a></li>
+                    <li class="registerbtn"><a href="#"><p>Ro'yhatdan o'tish</p></a></li>
+                    <li class="doctor-img"><img src="./doctor.png" alt="icon" /></li>
+                </ul>
+            </div>
+        </header>
+        <div class="main">
+            <div class="login-div login-page">
+                
+                <form action="">
+                    <i class="fa fa-close"></i>
+                    <span class="form-logo-span">
+                        <img src="./logo.png" alt="logo">
+                    </span>
+                    <br>
+                    <span>
+                        <h2><b>P</b><strong>H</strong> Card</h2>
+                    </span>
+                    <span>
+                        <label for="login">Username</label><br>
+                        <input id="login" type="text" placeholder="login">
+                    </span>
+                    <br>
+                    <br>
+                    <span>
+                        <label for="pwd">Password</label><br>
+                        <input id="pwd" type="text" placeholder="login">
+                    </span>
+                    <br><br>
+                    <span class="form-submit">
+                        <a href="/"><p>Login parolingizni unutdingizmi?</p></a>
+                        <input type="button" value="Tizimga kirish">
+                    </span>
+                </form>
+            </div>
+            <div class="login-div register-page">
+                <form action="">
+                    <i class="fa fa-close"></i>
+                    <span class="form-logo-span">
+                        <img src="./logo.png" alt="logo">
+                    </span>
+                    <br>
+                    <span>
+                        <h2><b>P</b><strong>H</strong> Card</h2>
+                    </span>
+                    <span>
+                        <label for="login">Username</label><br>
+                        <input id="login" type="text" placeholder="Username">
+                    </span>
+                    <br>
+                    <br>
+                    <span>
+                        <label for="e-mail">E-mail</label><br>
+                        <input id="e-mail" type="text" placeholder="yourmail@gmail.com">
+                    </span>
+                    <br><br>
+                    <span>
+                        <label for="pwd">Password</label><br>
+                        <input id="pwd" type="text" placeholder="Password">
+                    </span>
+                    <br><br>
+                    <span>
+                        <label for="r-pwd">Re-type Password</label><br>
+                        <input id="r-pwd" type="text" placeholder="Re-type Password">
+                    </span>
+                    <br><br>
+                    <span>
+                        <label for="image">Rasmingizni kiriting</label><br>
+                        <input style="border:none" id="image" type="file">
+                    </span>
+                    
+                    <span class="form-submit" style="justify-content: right;">
+                        <input type="button" value="Ro'yhatdan o'tish">
+                    </span>
+                </form>
+            </div>
+            <div class="solution">
+                <img src="./slider-removebg-preview.png" alt="">
+                <nav>
+                    <ul class="solution-box">
+                        <li><i class="fa fa-user-md"></i><p>Ilovadagi  retseptda aniq va tushinarli nom va dozaning qayd etilishi</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Retseptlar qaydnomasi doimiy saqlanishi</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Retsept tarkibidagi  dori vositalarini aynan qaysi dorixonadan sotib olinganligi to’g’risida elektron imzo</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Online retsept olish</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Online buyurtma berish</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Budilnik eslatma</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Shifokordan online maslahat</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Eng yaqin hududda joylashgan shifoxona,dorixonani geologik  joylashuvini aniqlash</p></li>
+                        <li><i class="fa fa-user-md"></i><p>Eng yaqin hududagi Tez tibbiy yordam  xizmatini  tashkil qilish</p></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <div class="about-hp">
+                <p>
+                    Mazkur platformada ishlash jarayoni quyidagi uch rol foydalanuvchilari tomonidan shakllantiriladigan ma'lumotlar bazasi orqali olib boriladi. Ushbu protsesda <b>Shifokor</b> bemorga tashxis qo'yadi hamda tashxis natijasini tizimda yoritadi va unga tafsiya etilgan antibiotiklar ro'yhatini tashxis ostida bayon etadi. Bunda <b>Bemor</b>ning shaxsiy kabinetida ushbu ma'lumotlar <em>qr-code</em> hamda oddiy yozuv shaklida paydo bo'ladi. Bemor dorixonaga tashrif chog'ida shaxsiy kabinetida mavjud <i>qr-code</i> <b>Dorixona xodimi</b>ga taqdim etadi. Dorixona xodim ushbu <i>qr-code</i>ni skaner qilish orqali bemorga zarur preparadlarni tez va oson topish imkoniyatiga ega bo'ladi
+                </p>
+            </div>
+            <br>
+            <div class="formatted">
+                <nav>
+                    <span class="formatted-span"><img src="./pharma.jpg" alt="doctor"> <p>Dorixona xodimi</p></span>
+                    <p class="formatted-text">Tashrif buyurgan bemorlar talablari statistikasini shakllantirish imkoniyatiga ega</p>
+                    <span class="formatted-login"><a  class="loginbtn" href="#"><p>Tizimga kirish</p></a></span>
+                </nav>
+                <nav>
+                    <span class="formatted-span"><img src="./slider-removebg-preview.png" alt="doctor"> <p>Shifokor</p></span>
+                    <p class="formatted-text">Shifokorlar bemorning shakllangan kasallik tarixini oson bilish imkoniyatiga ega</p>
+                    <span class="formatted-login"><a class="loginbtn" href="doctor.html"><p>Tizimga kirish</p></a></span>
+                </nav>
+                <nav>
+                    <span class="formatted-span"><img src="./bemor.jpg" alt="doctor"> <p>Bemor</p></span>
+                    <p class="formatted-text">Bemorlar shifokorning antibiotiklar retsepini istalgan payt oson ko'rish imkoniyatiga ega</p>
+                    <span class="formatted-login"><a class="loginbtn" href="bemor.html"><p>Tizimga kirish</p></a></span>
+                </nav>
+            </div>
+            <div class="about-section">
+                <nav>
+                    <p class="about-section-title">Tizim haqida batafsil ma'lumotlarni quyidagi manzillardan olishingiz mumkun</p>
+                    <br>
+                    <ul>
+                        <li><i class="fa fa-phone"></i><p>+99833 970-29-05</p></li>
+                        <li><i class="fa fa-fax"></i><p>+99891 151-31-17</p></li>
+                        
+                        <li><a href=""><i class="fa fa-facebook"></i>Facebook sahifamiz</a></li>
+                        <li><a href=""><i class="fa fa-youtube"></i>Youtube sahifamiz</a></li>
+                        <li><a href=""><i class="fa fa-paper-plane"></i>Telegram sahifamiz</a></li>
+                        <li><a href=""><i class="fa fa-envelope"></i>muazzamxon@gmail.com</a></li>
+                    </ul>
+                </nav>
+                <img src="./map.png" alt="">
+            </div>
+        </div>
+        <footer>
+            <div>
+                <p><b>Dastur versiyasi </b> <i> 0.0.0.1</i> / <b>Sana </b><i> 17.11.2022 20:21:49 </i> / <a href="https://t.me/Developer1524"><b>Manufacturer: </b> <i>Winux Smart</i></a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
